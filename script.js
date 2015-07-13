@@ -7,7 +7,8 @@ function loggF(str) {
 }
 var test = returnF("apples");
 
-if (test !== undefined)
+if (test === undefined)
+  console.log("test variable is undefined!")
+else
   console.log("test variable is defined!")
-
 loggF("oranges");
